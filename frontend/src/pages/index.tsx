@@ -1,5 +1,5 @@
-import Head from "next/head";
-import Link from "next/link";
+import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -11,9 +11,7 @@ export default function Home() {
 
       <main className="flex-grow flex flex-col items-center justify-center p-5 text-center">
         <h1 className="text-6xl font-bold mb-5">Nextwind Typedoc on Docker</h1>
-        <p className="text-4xl text-slate-500">
-          Next.js + TailwindCSS + Jest + TyasdfjpeDoc + Docker
-        </p>
+        <p className="text-4xl text-slate-500">Next.js + TailwindCSS + Jest + TyasdfjpeDoc + Docker</p>
       </main>
 
       <footer className="flex flex-col items-center justify-center p-4">
@@ -22,5 +20,5 @@ export default function Home() {
         </p>
       </footer>
     </div>
-  );
+  )
 }
